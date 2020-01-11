@@ -1,0 +1,7 @@
+---
+hostname: 127.0.0.1
+port: '2222'
+username: vagrant
+ssh_key: C:/Users/Javier Romero/Engineering47/Week7/Day4/Infrastructure_as_Code/Cookbooks/node/.kitchen/kitchen-vagrant/default-ubuntu-1804/.vagrant/machines/default/virtualbox/private_key
+last_action: setup
+last_error: Kitchen::ActionFailed

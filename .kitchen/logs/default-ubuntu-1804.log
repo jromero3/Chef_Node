@@ -1,0 +1,26 @@
+I, [2020-01-09T15:48:21.095487 #13516]  INFO -- default-ubuntu-1804: -----> Verifying <default-ubuntu-1804>...
+I, [2020-01-09T15:48:21.869539 #13516]  INFO -- default-ubuntu-1804: Loaded tests from {:path=>"C:.Users.node.test.integration.default"} 
+E, [2020-01-09T15:48:22.313090 #13516] ERROR -- default-ubuntu-1804: Verify failed on instance <default-ubuntu-1804>.
+E, [2020-01-09T15:48:22.313253 #13516] ERROR -- default-ubuntu-1804: ------Exception-------
+E, [2020-01-09T15:48:22.313305 #13516] ERROR -- default-ubuntu-1804: Class: Kitchen::ActionFailed
+E, [2020-01-09T15:48:22.313347 #13516] ERROR -- default-ubuntu-1804: Message: InSpec Runner returns 1
+E, [2020-01-09T15:48:22.313388 #13516] ERROR -- default-ubuntu-1804: ----------------------
+E, [2020-01-09T15:48:22.313429 #13516] ERROR -- default-ubuntu-1804: ------Backtrace-------
+E, [2020-01-09T15:48:22.313468 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/kitchen-inspec-1.3.1/lib/kitchen/verifier/inspec.rb:98:in `call'
+E, [2020-01-09T15:48:22.313508 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:459:in `block in verify_action'
+E, [2020-01-09T15:48:22.313547 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:552:in `synchronize_or_call'
+E, [2020-01-09T15:48:22.313587 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:514:in `block in action'
+E, [2020-01-09T15:48:22.313634 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2020-01-09T15:48:22.313673 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:513:in `action'
+E, [2020-01-09T15:48:22.313713 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:451:in `verify_action'
+E, [2020-01-09T15:48:22.313753 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2020-01-09T15:48:22.313792 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2020-01-09T15:48:22.313832 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2020-01-09T15:48:22.313871 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:380:in `each'
+E, [2020-01-09T15:48:22.313911 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2020-01-09T15:48:22.313950 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:162:in `verify'
+E, [2020-01-09T15:48:22.313989 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/command.rb:198:in `public_send'
+E, [2020-01-09T15:48:22.314029 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/command.rb:198:in `run_action_in_thread'
+E, [2020-01-09T15:48:22.314069 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2020-01-09T15:48:22.314108 #13516] ERROR -- default-ubuntu-1804: C:/opscode/chefdk/embedded/lib/ruby/gems/2.6.0/gems/logging-2.2.2/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2020-01-09T15:48:22.314148 #13516] ERROR -- default-ubuntu-1804: ----End Backtrace-----

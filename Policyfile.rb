@@ -14,3 +14,8 @@ run_list 'node::default'
 
 # Specify a custom source for a single cookbook:
 cookbook 'node', path: '.'
+
+# name 'nodejs'
+# default_source :supermarket
+# run_list 'nodejs::default'
+# cookbook 'nodejs', path: '.'
