@@ -61,11 +61,11 @@
       "scm_info": {
         "scm": "git",
         "remote": null,
-        "revision": "f8d583b6886fdf422f15119d5abb2fa27177453e",
+        "revision": "662291cb292e9bc6b4c2c1587a253e0fa69812b3",
         "working_tree_clean": false,
-        "published": false,
+        "published": true,
         "synchronized_remote_branches": [
-
+          "origin/master"
         ]
       },
       "source_options": {
